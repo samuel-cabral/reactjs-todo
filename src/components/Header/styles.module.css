@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: var(--gray-700);
+
+  height: 12.5rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+}
+
+.logo {
+  width: 7.875rem;
+  height: 3rem;
+  margin: 0 auto;
+}
