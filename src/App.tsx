@@ -9,9 +9,9 @@ export function App() {
     <div>
       <Header />
 
-      <div className={styles.wrapper}>
+      <main className={styles.wrapper}>
         <ToDoList />
-      </div>
+      </main>
     </div>
   )
 }
